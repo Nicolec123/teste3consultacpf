@@ -52,7 +52,7 @@ function validarCnpj(cnpj) {
 
 // Função de login para autenticação e obter o token
 async function realizarLogin() {
-  const loginUrl = "/api/autenticacao";
+  const loginUrl = "/autenticacao";
   const credenciais = {
       usuario: "08655788000186",
       senha: "#Trocar123",
